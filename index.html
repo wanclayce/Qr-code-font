@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code com Texto</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+        }
+
+        .text {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .text p:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- QR code image -->
+        <img src="image-qr-code.png" alt="QR Code">
+
+        <!-- Three lines of text -->
+        <div class="text">
+            <p>Improve your Frond-end skills by buildind projects</p>
+            <p>Escanei o Qr code e conheça mais sobre a comunidade</p>
+        </div>
+    </div>
+</body>
+</html>
+
